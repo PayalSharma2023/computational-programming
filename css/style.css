@@ -1,0 +1,332 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+body, html{
+	font-family: Roboto, sans-serif, arial;
+	background:#f0f3fa;
+}
+.width-100{
+	width: 100%;
+    float: left;
+}
+.container{
+	width: 1500px;
+    margin: 0;
+}
+.top-header{
+	background-color: #2196f3;
+    padding: 5px;
+    border-bottom: 1px solid #3131315e;
+}
+.news-list{
+	background: white;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+}
+.headquote{
+	font-size: 18px;
+    color: white;
+    width: 80%;
+}
+.header-menu{
+	position: relative;
+    box-shadow: 0px 2px 5px 0px #00000036;
+}
+.logo{
+	
+    width: fit-content;
+    float: left;
+}
+.main-menu{
+	list-style: none;
+    float: right;
+    margin-top: 25px;
+}
+.main-menu a{
+	font-weight: 500;
+    color: #3a3a3a;
+    font-size: 20px;
+    text-decoration: none;
+}
+.main-menu li{
+	float: left;
+    padding: 12px 15px;
+}
+.slider-width{
+	width: 100%;
+	height: auto;
+}
+.width-100{
+	margin-top: 0px;
+}
+.width-33{
+	width: 33%;
+	float: left;
+	
+}
+.latest-news{
+	margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	
+}
+.heading-sect{
+	width: 100%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding-top: 2px;
+    border: 1px solid #cfcfcf;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #00aed9;
+    color: white;
+}
+.head-title{
+	margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.latest-news-ul{
+	padding: 0px;
+    list-style: none;
+    line-height: 40px;
+}
+.event-list{
+	margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.upcoming-event-list{
+	padding: 0px;
+    list-style: none;
+}
+.upcoming-event-list li{
+	width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.event-date{
+	background: #03a9f4;
+    width: 30px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px;
+    margin-right: 10px;
+}
+.notice-board{
+	margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.notice-board-list{
+	padding: 0px;
+    list-style: none;
+    line-height: 40px;
+}
+.notice-board-list li{
+	width: 100%;
+	float: left;
+	margin-bottom: 15px;
+}
+.our-principal{
+	margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.useful-info-ul{
+	list-style: none;
+}
+.useful-info-ul ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.useful-info-ul li{
+	margin-bottom: 15px;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 15px;
+}
+.useful-info-ul a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.gov-sect-style{
+	margin-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 15px;
+}
+.governor-name{
+	font-size: 16px;
+    color: black;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+.governor-designation{
+	font-size: 16px;
+    color: black;
+    padding-left: 10px;
+    margin-top: 6px;
+}
+.governor-img{
+	width: 100%;
+}
+.width-40{
+	width: 40%;
+	float: left;
+}
+.width-60{
+	width: 60%;
+	float: left;
+}
+.about-us{
+	margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.certificate{
+	margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+.gallery-head-style{
+	font-size: 28px;
+    color: #4b4848;
+    margin-bottom: 5px;
+    background: white;
+    padding: 2px;
+}
+.width-25{
+	width: 25%;
+    float: left;
+}
+.gallery-img{
+	height: 250px;
+    width: auto;
+}
+.recruiter-head-style{
+	font-size: 28px;
+	color: #4b4848;
+	margin-bottom: 5px;
+}
+.recruiter-marquee{
+	height: 100px;
+}
+.recruiter-marquee img{
+	height: 80px;
+	width: 140px;
+}
+.margin-top-50{
+	margin-top: 10px;
+}
+.footer{
+	background: #232f3e;
+	padding: 50px 0px;
+	
+}
+.quicklink-heading{
+	font-size:18px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 10px;
+}
+.quicklink-menu{
+	list-style: none;
+	padding-left: 10px;
+}
+.quicklink-menu li a{
+	color: white;
+	font-size: 15px;
+	text-decoration:none;
+}
+.quicklink-menu{
+	
+}
+.get-in-touch{
+	list-style: none;
+	padding-left: 10px;
+}
+.get-in-touch li{
+	color: white;
+	font-size: 15px;
+	line-height: 2.5;
+}
+.get-in-touch li i{
+	color: #ed372c;
+	font-size: 20px;
+}
+.footer-e-mail{
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.footer-website{
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.social-media{
+	list-style: none;
+	margin-top: 10px;
+	
+}
+.social-media li{
+	float: left;
+	padding: 0px 8px;
+}
+.social-media img{
+	width: 30px;
+}
+.footer2-bacbor{
+	background: #232f3e;
+	padding: 10px 0px;
+	border-top: 1px solid #898989;
+}
+.footer2-content{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	
+}
